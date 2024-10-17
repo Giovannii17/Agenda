@@ -9,7 +9,7 @@ html, body{
     color: white;
 }
 body{
-    background:linear-gradient(to top, rgba(248,4,102,08), rgb (117,0,180));
+    background:linear-gradient(to top, rgba(248,4,102,08), rgb(117,0,180));
     background-size: cover;
 }
 h2{
@@ -27,4 +27,43 @@ h2{
     align-items: center;
     transform: translate(-50%, -50%);
     justify-content: center;
+}
+.formbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+form input[type=text]{
+    outline: unset;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+form input[type=password]{
+    outline: unset;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+form input[type=submit]{
+    background: linear-gradient(to left,rgba(248, 4, 102, 0.875), rgb(117, 0, 180));
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+form input[type=submit]:hover{
+    background: linear-gradient(to right,rgba(248, 4, 102, 0.875), rgb(117, 0, 180));
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor:pointer;
 }
